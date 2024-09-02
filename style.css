@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #ffffff, #aed2e4);
+    background-size: 200% 200%;
+    transition: background-position 0.5s ease;
+}
+
+.panel {
+    background-color: white;
+    color: #005889;
+    border-radius: 5px;
+    padding: 5%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+.panel:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color:white;
+    background-color: #005889;
+
+}
+
+.panel-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.panel-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo-tarjeta {
+    font-size: 1.2rem;
+}
+
+.font-weight-bold {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.vendedores-del-mes .vendedor-mes {
+    background-color: #ffffff;
+    color: #3E434E;
+    
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.col-lg-2{
+    padding: 0px 1px !important;
+}
+.letrasBonitas{
+    background: linear-gradient(to right, #3f7d8d, #003857); /* Aplica el gradiente de fondo */
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent; 
+    font-weight: 900;
+
+}
+.datos{
+    color: #003857;
+
+}
+.container{
+    padding-top: 5%;
+}
